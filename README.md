@@ -9,7 +9,6 @@ This is how config.json looks like
 			"smtpEmail": "abc@email.com", //gmail address to be used to send email using smtp.gmail.com
 			"password": "*****", // gmail account password
 			"fromEmail": "abc@email.com", //this is same as smtpEmail
-			"toEmail": "xyz@email.com", //recepient (can have comma separated email ids)
 			"subject": "subject for email",
 			"body": "body for email"
 		}

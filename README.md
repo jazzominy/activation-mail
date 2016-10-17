@@ -37,4 +37,4 @@ The data has the information about the person whose account is to be verified. W
 
 `/confirm?token=xyz`
 
-This api is called when user clicks the link that is provided in the verification email. Here `xyz` is the actual token that is generated when verification mail is sent. The response is an html thank you template
+This api is called when user clicks the link that is provided in the verification email. Here `xyz` will be the actual token that is generated when verification mail is sent. The response is an html thank you template

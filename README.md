@@ -16,3 +16,25 @@ This is how config.json looks like
 	}
 
 The package used to send mail is node-mailer. Google smtp service is used by using the `smtpEmail` & `password` provided in `config.json` file.
+
+## API
+
+`/verifyAccount`
+
+This api accepts POST method with the data in json format. Here is an example
+
+	{
+		"name": "John Doe",
+		"email": "john@doe.com"
+	}
+
+The data has the information about the person whose account is to be verified. When the mail is sent successfully, folliwing response is returned
+
+	{
+		success: true,
+		message: "Verification email sent successfully"
+	}
+
+`/confirm?token=xyz`
+
+This api is called when user clicks the link that is provided in the verification email. Here `xyz` is the actual token that is generated when verification mail is sent. The response is an html thank you template

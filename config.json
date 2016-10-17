@@ -3,7 +3,6 @@
 		"smtpEmail": "abc@email.com",
 		"password": "****",
 		"fromEmail": "abc@email.com",
-		"toEmail": "abc@email.com",
 		"subject": "Account Confirmation",
 		"body": "We need to make sure this is your email address"
 	}
